@@ -1,4 +1,4 @@
-package ch.bbw;
+package ch.bbw.as.consolecalculator;
 
 import static org.junit.Assert.assertTrue;
 
