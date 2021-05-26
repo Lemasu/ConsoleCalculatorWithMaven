@@ -1,4 +1,4 @@
-package ch.bbw.consolecalculator;
+package ch.bbw.as.consolecalculator;
 
 /**
  * Console Calculator App
