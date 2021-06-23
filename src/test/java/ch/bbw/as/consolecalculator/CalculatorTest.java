@@ -46,6 +46,11 @@ public class CalculatorTest {
 	}
 
 	@Test
+	public void testSummeAlsSatzFunktioniert() {
+		assertTrue(testee.resultatSumme(10, 25).equals("Die Summe ist: 35"));
+	}
+
+	@Test
 	public void testSubtractionZweiPositiveIsOk() {
 		assertTrue(testee.subtraktion(25, 10) == 15);
 	}
