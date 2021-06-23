@@ -22,5 +22,6 @@ public class App
         valueB = 20;
         System.out.println("Summe " + valueA + " + " + valueB + " = " + calculator.summe(valueA, valueB));
         System.out.println(calculator.resultatSumme(valueA, valueB));
+        System.out.println(calculator.resultatSummeOhnePunkt(valueA, valueB));
     }
 }
