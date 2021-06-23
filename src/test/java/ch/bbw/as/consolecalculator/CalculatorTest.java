@@ -31,6 +31,11 @@ public class CalculatorTest {
 	}
 
 	@Test
+	public void testSummePostiveZahlMitNullIsOk() {
+		assertTrue(testee.summe(0, 25) == 25);
+	}
+
+	@Test
 	public void testSummeGleichNullIsOk() {
 		assertTrue(testee.summe(10, -10) == 0);
 	}
