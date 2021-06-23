@@ -63,17 +63,17 @@ public class CalculatorTest {
 	 * 	Die heruntergeladene .jar-Datei sorgt dafuer, dass der Test dann funktioniert.
  	 */
 	@Test
-	public void testSummePrivate() {
+	public void testSummePrivateIsOk() {
 		assertTrue(true);
 	}
 
 	@Test
-	public void testSummeAlsSatzFunktioniert() {
+	public void testSummeAlsSatzFunktioniertIsOk() {
 		assertTrue(testee.resultatSumme(10, 25).equals("Die Summe ist: 35."));
 	}
 
 	@Test
-	public void testSummeAlsSatzOhnePunktFunktioniert() {
+	public void testSummeAlsSatzOhnePunktFunktioniertIsOk() {
 		assertTrue(testee.resultatSummeOhnePunkt(10, 25).equals("Die Summe ist: 35"));
 	}
 
