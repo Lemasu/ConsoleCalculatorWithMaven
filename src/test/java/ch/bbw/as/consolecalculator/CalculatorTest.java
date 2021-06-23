@@ -46,6 +46,11 @@ public class CalculatorTest {
 	}
 
 	@Test
+	public void testSummeEinSummandIstMinIntUndDerAndereIstEineNegativeZahlIsOk() {
+		assertTrue(testee.summe(Integer.MIN_VALUE, -50) == 2147483598);
+	}
+
+	@Test
 	public void testSubtractionZweiPositiveIsOk() {
 		assertTrue(testee.subtraktion(25, 10) == 15);
 	}
