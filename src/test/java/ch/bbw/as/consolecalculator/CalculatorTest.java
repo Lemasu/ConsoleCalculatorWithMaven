@@ -47,7 +47,7 @@ public class CalculatorTest {
 
 	@Test
 	public void testSummeAlsSatzFunktioniert() {
-		assertTrue(testee.resultatSumme(10, 25).equals("Die Summe ist: 35"));
+		assertTrue(testee.resultatSumme(10, 25).equals("Die Summe ist: 35."));
 	}
 
 	@Test

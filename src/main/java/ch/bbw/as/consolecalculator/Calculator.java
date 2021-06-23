@@ -13,7 +13,7 @@ public class Calculator {
     }
 
     protected String resultatSumme(int summand1, int summand2) {
-        return "Die Summe ist: " + (summand1 + summand2);
+        return "Die Summe ist: " + (summand1 + summand2) + ".";
     }
 
     public int subtraktion(int value1, int value2) {
