@@ -36,6 +36,11 @@ public class CalculatorTest {
 	}
 
 	@Test
+	public void testSummeEinSummandIstMaxIntIsOk() {
+		assertTrue(testee.summe(Integer.MAX_VALUE, 50) == -2147483599);
+	}
+
+	@Test
 	public void testSubtractionZweiPositiveIsOk() {
 		assertTrue(testee.subtraktion(25, 10) == 15);
 	}
