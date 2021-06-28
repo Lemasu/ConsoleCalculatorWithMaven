@@ -3,6 +3,7 @@ package ch.bbw.as.consolecalculator;
 /**
  * Calculator
  *      - kann zwei Zahlen addieren
+ *      - kann zwei Zahlen subtrahieren
  *
  * @author Alex Schaub
  * @version 0.0.1
