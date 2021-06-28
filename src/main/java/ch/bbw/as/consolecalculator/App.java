@@ -23,5 +23,10 @@ public class App
         System.out.println("Summe " + valueA + " + " + valueB + " = " + calculator.summe(valueA, valueB));
         System.out.println(calculator.resultatSumme(valueA, valueB));
         System.out.println(calculator.resultatSummeOhnePunkt(valueA, valueB));
+        try {
+            System.out.println("Quotient " + valueA + " / " + valueB + " = " + calculator.division(valueA, valueB));
+        } catch (ArithmeticException e) {
+            System.out.println("Eine Division durch 0 ist nicht erlaubt.");
+        }
     }
 }
