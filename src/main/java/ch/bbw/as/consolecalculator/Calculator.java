@@ -29,6 +29,7 @@ public class Calculator {
     String resultatSummeOhnePunkt(int summand1, int summand2) {
         return "Die Summe ist: " + (summand1 + summand2);
     }
+
     public int differenz(int minued, int subtrahend) {
         return minued - subtrahend;
     }
