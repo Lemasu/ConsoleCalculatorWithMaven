@@ -13,7 +13,7 @@ public class Calculator {
         return summand1 + summand2;
     }
 
-    public int subtraktion(int minued, int subtrahend) {
+    public int differenz(int minued, int subtrahend) {
         return minued - subtrahend;
     }
 }
