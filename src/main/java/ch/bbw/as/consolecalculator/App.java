@@ -28,5 +28,6 @@ public class App
         } catch (ArithmeticException e) {
             System.out.println("Eine Division durch 0 ist nicht erlaubt.");
         }
+        System.out.println("Potenzwert " + 2 + "^" + 3 + " = " + calculator.potenzwert(2, 3));
     }
 }
