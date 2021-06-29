@@ -23,6 +23,7 @@ public class App
         System.out.println("Summe " + valueA + " + " + valueB + " = " + calculator.summe(valueA, valueB));
         System.out.println(calculator.resultatSumme(valueA, valueB));
         System.out.println(calculator.resultatSummeOhnePunkt(valueA, valueB));
+        System.out.println("Differenz " + valueA + " - " + valueB + " = " + calculator.differenz(valueA, valueB));
         try {
             System.out.println("Quotient " + valueA + " / " + valueB + " = " + calculator.division(valueA, valueB));
         } catch (ArithmeticException e) {
