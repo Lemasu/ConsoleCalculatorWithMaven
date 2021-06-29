@@ -36,4 +36,12 @@ public class Calculator {
     public int division(int dividend, int divisor) {
         return dividend / divisor;
     }
+
+    public int potenzwert(int basis, int exponent) {
+        int potenzwert = 1;
+        for (int i = 0; i < exponent; i++) {
+            potenzwert *= basis;
+        }
+        return potenzwert;
+    }
 }
