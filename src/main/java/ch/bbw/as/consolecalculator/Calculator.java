@@ -6,7 +6,7 @@ package ch.bbw.as.consolecalculator;
  *      - kann zwei Zahlen subtrahieren
  *
  * @author Alex Schaub
- * @version 0.0.1
+ * @version 0.1
  */
 public class Calculator {
     public int summe(int summand1, int summand2) {

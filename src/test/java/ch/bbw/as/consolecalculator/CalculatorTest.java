@@ -10,7 +10,7 @@ import org.junit.Test;
  * 
  * 
  * @author Alex Schaub
- * @version 0.0.1
+ * @version 0.1
  */
 public class CalculatorTest {
 	private Calculator testee;
