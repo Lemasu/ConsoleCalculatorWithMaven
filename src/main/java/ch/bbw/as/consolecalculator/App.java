@@ -3,7 +3,7 @@ package ch.bbw.as.consolecalculator;
 /**
  * Console Calculator App
  * @author Alex Schaub
- * @version 0.1
+ * @version 0.2
  */
 public class App 
 {
